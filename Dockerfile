@@ -1,6 +1,6 @@
 FROM java:8
 
-MAINTAINER octopus
+LABEL MAINTAINER="octopus"
 
 RUN mkdir -p /spider-flow
 
